@@ -1,6 +1,6 @@
 const { execSync} = require('child_process');
 
-const message = process.atgv[2] || "leetcode update";
+const message = process.argv[2] || "leetcode update";
 
 try {
     execSync(`git add .`);
