@@ -1,0 +1,25 @@
+:root {
+  color-scheme: dark;
+}
+
+body {
+  background:
+    radial-gradient(circle at top left, rgba(251, 146, 60, 0.18), transparent 28rem),
+    radial-gradient(circle at bottom right, rgba(14, 165, 233, 0.18), transparent 30rem),
+    #0c0a09;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.glass {
+  background: rgba(28, 25, 23, 0.78);
+  backdrop-filter: blur(16px);
+}
+
+.description pre {
+  white-space: pre-wrap;
+  overflow-x: auto;
+}
+
+.description code {
+  white-space: pre-wrap;
+}
